@@ -1,0 +1,494 @@
+﻿  visual                 Filtre de visualisation
+  projectm               Effet libprojectM
+  goom                   Effet goom
+  glspectrum             Visualisation du spectre OpenGL 3D
+  wall                   Filtre vidéo mur
+  panoramix              Panoramix : mur avec des filtres vidéos
+  clone                  Filtre vidéo de duplication d'image
+  yuv                    Sortie vidéo « YUV »
+  inhibit                Windows screen saver inhibition
+  wingdi                 Sortie vidéo « Windows GDI »
+  wgl                    Extension WGL pour OpenGL
+  vmem                   Module mémoire vidéo
+  vdummy                 Sortie vidéo factice
+  vdummy                 Statistiques sortie vidéo
+  gl                     Sortie vidéo « OpenGL »
+  glwin32                Sortie vidéo « OpenGL » pour Windows
+  flaschen               Flaschen-Taschen video output
+  drawable               Vidéo X Window intégrée
+  directdraw             Sortie vidéo « DirectX (DirectDraw) »
+  direct3d9              Sortie vidéo « Direct3D 9 »
+  direct3d9              DX OpenGL surface converter for D3D9
+  direct3d11             Sortie vidéo « Direct3D 11 »
+  caca                   Sortie vidéo « ASCII couleur »
+  wave                   Filtre vidéo onde
+  vhs                    Filtre vidéo style film VHS
+  transform              Filtre vidéo de transformation d'image
+  sharpen                Filtre amélioration netteté
+  sepia                  Filtre vidéo sépia
+  scene                  Filtre vidéo scène
+  scale                  Filtre de redimensionnement
+  rotate                 Filtre vidéo rotation
+  ripple                 Filtre vidéo effet plan d'eau
+  puzzle                 Jeu interactif puzzle
+  psychedelic            Filtre vidéo effet psychédélique
+  postproc               Filtre de post-traitement vidéo
+  posterize              Filtre vidéo de postérisation
+  oldmovie               Filtre vidéo style vieux film
+  motiondetect           Filtre de détection de mouvement
+  motionblur             Filtre de flou de mouvement
+  mirror                 Filtre vidéo miroir
+  magnify                Filtre d'agrandissement interactif
+  invert                 Filtre vidéo d'inversion
+  hqdn3d                 Filtre haute qualité Denoiser 3D
+  grain                  Filtre d'ajustement du grain
+  gradient               Filtre vidéo gradient
+  gradfun                Filtre vidéo « Gradfun »
+  gaussianblur           Filtre vidéo flou gaussien
+  freeze                 Filtre d'arrêt sur image interactif
+  fps                    Filtre vidéo de conversion FPS
+  extract                Filtre vidéo d'extraction de composantes RGB
+  erase                  Filtre vidéo d’effacement
+  edgedetection          Filtre vidéo de détection des bords
+  deinterlace            Filtre de désentrelacement vidéo
+  croppadd               Filtre de recadrage
+  colorthres             Filtre vidéo de saturation de couleur
+  canvas                 Filtre vidéo canevas
+  bluescreen             Filtre vidéo écran bleu
+  blend                  Mélange d'images
+  blendbench             Filtre de benchmark pour le flou
+  ball                   Filtre vidéo balle
+  antiflicker            Filtre vidéo anti-scintillement
+  anaglyph               Filtre vidéo de conversion image 3D en anaglyphe
+  alphamask              Filtre vidéo effet masque de transparence
+  adjust                 Filtre vidéo d'ajustement d'image
+  yuy2_i422              Conversions from YUY2,YUNV,YVYU,UYVY,UYNV,Y422 to I422
+  yuy2_i420              Conversions from YUY2,YUNV,YVYU,UYVY,UYNV,Y422 to I420
+  yuvp                   Convertisseur YUVP
+  swscale                Filtre de redimensionnement
+  rv32                   Filtre de conversion RV32
+  i422_yuy2_sse2         SSE2 conversions from I422 to YUY2,YUNV,YVYU,UYVY,UYNV,Y422,IUYV
+  i422_yuy2              Conversions from I422 to YUY2,YUNV,YVYU,UYVY,UYNV,Y422,IUYV,Y211
+  i422_yuy2_mmx          MMX conversions from I422 to YUY2,YUNV,YVYU,UYVY,UYNV,Y422,IUYV
+  i422_i420              Conversions from I422,J422 to I420,IYUV,J420,YV12,YUVA
+  i420_yuy2_sse2         SSE2 conversions from I420,IYUV,YV12 to YUY2,YUNV,YVYU,UYVY,UYNV,Y422,IUYV
+  i420_yuy2              Conversions from I420,IYUV,YV12 to YUY2,YUNV,YVYU,UYVY,UYNV,Y422,IUYV,Y211
+  i420_yuy2_mmx          MMX conversions from I420,IYUV,YV12 to YUY2,YUNV,YVYU,UYVY,UYNV,Y422,IUYV
+  i420_rgb_sse2          Conversions SSE2 de I420,IYUV,YV12 vers RV15,RV16,RV24,RV32
+  i420_rgb               Conversions de I420,IYUV,YV12 vers RGB2,RV15,RV16,RV24,RV32
+  i420_rgb_mmx           Conversions MMX de I420,IYUV,YV12 vers RV15,RV16,RV24,RV32
+  i420_nv12              Conversions YUV planaire vers semi-planaire
+  i420_10_p010           Conversions YUV planaire 10 bits vers semi-planaire 10 bits
+  grey_yuv               Conversions from GREY to I420,YUY2
+  chain                  Filtrage vidéo en utilisant une chaine de modules de filtre vidéo
+  chain                  Filtrage vidéo en utilisant une chaine de modules de filtre vidéo
+  tdummy                 Rendu de polices factice
+  sapi                   Synthèse vocale pour Windows
+  freetype               Moteur de rendu freetype2
+  stream_out_transcode   Transcode le flux
+  stats                  Écrit les informations de statistique à propos du flux
+  stream_out_standard    Flux de sortie standard
+  smem                   Flux de sortie vers un tampon mémoire
+  setid                  Changer l'identifiant du flux élémentaire
+  setid                  Changer la langue du flux élémentaire
+  stream_out_rtp         Sortie flux RTP
+  stream_out_rtp         Serveur VoD RTSP
+  record                 Enregistrer le flux de sortie
+  mosaic_bridge          Flux de sortie de la mosaïque
+  gather                 Flux de sortie assemblé
+  es                     Flux de sortie élémentaire
+  duplicate              Duplique le flux
+  dummy                  Flux de sortie factice
+  display                Affiche le flux
+  description            Flux de sortie de description
+  delay                  Retarder un flux
+  cycle                  Flux de sortie cyclique
+  stream_out_chromecast  Flux de sortie Chromecast
+  stream_out_chromecast  Flux de sortie Chromecast
+  stream_out_chromecast  Flux de sortie Chromecast
+  stream_out_chromaprint Flux de sortie Chromaprint
+  bridge                 Flux de sortie de pont
+  bridge                 Flux de sortie de pont
+  bridge                 Flux de sortie de pont
+  autodel                Ajout/Effacement automatique des flux d'entrée
+  skiptags               Filtre des tags APR/ID3
+  record                 Enregistrement flux interne
+  prefetch               Filtre de préchargement de flux
+  inflate                Filtre de décompression zlib
+  hds                    Flux HTTP dynamique
+  cache_read             Cache flux octet
+  cache_block            Cache flux bloc
+  aribcam                Module Cam ARIB STD-B25
+  adf                    Filtre flux ADF
+  archive                Dossier de flux utilisant libarchive
+  archive                Extracteur de flux utilisant libarchive
+  subsdelay              Retard des sous-titres
+  rss                    Incrustation de fils RSS et ATOM
+  remoteosd              OSD-distant via VNC
+  mosaic                 Filtre vidéo mosaïque
+  marq                   Affichage du texte
+  logo                   Filtre vidéo d'incrustation de logo
+  logo                   Filtre vidéo d'insertion de logo
+  audiobargraph_v        Sous-filtre vidéo de graphique audio
+  audiobargraph_v        Sous-filtre vidéo de graphique audio
+  windrive               windrive
+  windrive               windrive
+  windrive               Disques
+  upnp                   Universal Plug'n'Play
+  upnp                   Universal Plug'n'Play
+  upnp                   Universal Plug'n'Play
+  sap                    Flux réseau (SAP)
+  sap                    Analyseur de descriptions SDP
+  sap                    Flux réseau (SAP)
+  podcast                Podcasts
+  podcast                Podcasts
+  microdns               Découverte réseau mDNS
+  microdns               Découverte réseau mDNS
+  microdns               Découverte de moteur de rendu mDNS
+  microdns               Découverte réseau mDNS
+  mediadirs              Mes vidéos
+  mediadirs              Mes vidéos
+  mediadirs              Mes images
+  mediadirs              Ma musique
+  vc1                    Empaqueteur VC-1
+  mpegvideo              Empaqueteur vidéo MPEG-I/II
+  mpegaudio              Empaqueteur MPEG audio, couches I/II/III
+  mpeg4video             Empaqueteur vidéo MPEG4
+  mpeg4audio             Empaqueteur audio MPEG4
+  mlp                    Analyseur MLP/TrueHD
+  hevc                   Empaqueteur vidéo HEVC/H.265
+  h264                   Empaqueteur vidéo H.264
+  flac                   Empaqueteur audio Flac
+  dts                    Empaqueteur audio DTS
+  dirac                  Empaqueteur Dirac
+  copy                   Empaqueteur « Copie »
+  av1                    Empaqueteur vidéo AV1
+  a52                    Empaqueteur audio A/52
+  wav                    Multiplexeur WAV
+  mux_ts                 Multiplexeur TS (libdvbpsi)
+  ps                     Multiplexeur PS
+  mux_ogg                Multiplexeur Ogg/Ogm
+  mpjpeg                 Multiplexeur M-JPEG
+  mp4                    Multiplexeur MP4/MOV
+  mp4                    Multiplexeur MP4 fragmenté et diffusable
+  dummy                  Multiplexeur factice/brut
+  avi                    Multiplexeur AVI
+  asf                    Multiplexeur ASF
+  xml                    Parseur XML (libxml2)
+  xml                    Parseur XML (libxml2)
+  rtsp                   Ancien serveur de VoD RTSP
+  stats                  Statistiques fonction encoder
+  stats                  Statistiques fonction démultiplexeur
+  stats                  Statistiques fonction décodeur
+  stats                  Statistiques fonction décodeur
+  stats                  Statistiques fonction décodeur
+  logger                 Module de journalisation dans un fichier
+  gnutls                 Couche de transport sécurité GnuTLS
+  gnutls                 Serveur GnuTLS
+  fingerprinter          Empreinte de piste (basé sur Acoustid)
+  export                 export
+  export                 Export de liste de lecture HTML
+  export                 Export de liste de lecture XSPF
+  export                 Export de liste de lecture M3U8
+  export                 Export de liste de lecture M3U
+  audioscrobbler         Soumission des chansons lues à Last.fm
+  vorepository           Recherche d'extensions addons.videolan.org
+  vorepository           Recherche d'extensions en une seule archive .vlp
+  fsstorage              Installation du stockage local d'extensions
+  fsstorage              Liste du stockage local d'extensions
+  taglib                 taglib
+  taglib                 taglib
+  folder                 Dossier de métadonnées
+  lua                    Interpréteur Lua
+  lua                    Interpréteur Lua
+  lua                    Module SD Lua
+  lua                    Extension Lua
+  lua                    Récupère des illustrations en utilisant des scripts lua
+  lua                    Interface Lua d'analyse de liste de lecture
+  lua                    Lit des métadonnées en utilisant des scripts lua
+  lua                    Récupérer des métadonnées en utilisant des scripts lua
+  lua                    Lua par telnet
+  lua                    Interface ligne de commandes
+  lua                    Lua par HTTP
+  file                   Fichier de journalisation
+  console                Console de journalisation
+  memory                 Le contenu confidentiel est stocké dans la mémoire
+  file                   Le contenu confidentiel est stocké dans un fichier non chiffré.
+  file                   Le contenu confidentiel est stocké dans un fichier chiffré
+  skins2                 Interface habillable
+  skins2                 Interface habillable
+  qt                     Interface Qt
+  qt                     Interface Qt
+  qt                     Dialogs provider
+  xa                     Démultiplexeur XA
+  wav                    Démultiplexeur WAV
+  voc                    Démultiplexeur VOC
+  vobsub                 Démultiplexeur de sous-titres Vobsub
+  vc1                    Démultiplexeur vidéo VC1
+  ty                     Démultiplexeur audio/vidéo de flux TY
+  tta                    Démultiplexeur TTA
+  ts                     Démultiplexeur MPEG-TS
+  subtitle               Lecteur de sous-titres texte
+  smf                    Démultiplexeur SMF
+  sid                    Démultiplexeur C64 sid
+  real                   Démultiplexeur Real
+  rawvid                 Démultiplexeur vidéo Raw
+  rawdv                  Démultiplexeur DV (Digital Video)
+  rawaud                 Démultiplexeur audio Raw
+  pva                    Démultiplexeur PVA
+  ps                     Démultiplexeur MPEG-PS
+  ps                     Démultiplexeur MPEG-PS
+  playlist               Liste de lecture
+  playlist               Import de liste de lecture WPL
+  playlist               Importation de musicothèque iTunes
+  playlist               Démultiplexeur IFO factice
+  playlist               Importateur de liens de médias Quicktime
+  playlist               Démultiplexeur Kasenna MediaBase
+  playlist               Import de liste de lecture ASX
+  playlist               Nouvel import shoutcast winamp 5.2
+  playlist               Import de liste de lecture XSPF
+  playlist               Parseur Podcast
+  playlist               Import de liste de lecture DVB
+  playlist               Import de liste de lecture B4S
+  playlist               Import de liste de lecture PLS
+  playlist               Import de liste de lecture RAM
+  playlist               Import de liste de lecture M3U
+  ogg                    Démultiplexeur Ogg
+  nuv                    Démultiplexeur Nuv
+  nsv                    Démultiplexeur NullSoft
+  nsc                    Démultiplexeur Windows Media NSC
+  noseek                 Utiliser le filtre démultiplexeur préventif
+  mpgv                   Démultiplexeur de flux vidéo MPEG-I/II
+  mpc                    Démultiplexeur MusePack
+  mp4                    Démultiplexeur de flux MP4
+  mod                    Démultiplexeur MOD (libmodplug)
+  mkv                    Démultiplexeur de flux Matroska
+  mjpeg                  Démultiplexeur M-JPEG
+  image                  Démultiplexeur d'images
+  h26x                   Démultiplexeur vidéo H264
+  h26x                   Démultiplexeur vidéo HEVC/H.265
+  gme                    Game Music Emu
+  flacsys                Démultiplexeur FLAC
+  es                     Audio MPEG-I/II/4 / A52 / DTS / MLP
+  es                     Vidéo MPEG-4
+  directory              Import de dossier
+  diracsys               Démultiplexeur vidéo Dirac
+  demux_stl              Lecteur de sous-titres EBU STL
+  demux_chromecast       Encapsulation du demux Chromecast
+  demux_cdg              Démultiplexeur CDG
+  demuxdump              Enregistreur sur fichier
+  caf                    Démultiplexeur CAF
+  avi                    Démultiplexeur AVI
+  au                     Démultiplexeur AU
+  asf                    Démultiplexeur ASF/WMV 
+  aiff                   Démultiplexeur AIFF
+  adaptive               Diffusion adaptative unifiée pour DASH et HLS
+  d3d9_filters           Filtre d'ajustement Direct3D 9
+  d3d9_filters           Filtre d'ajustement Direct3D 9
+  d3d9_filters           Filtre d'ajustement Direct3D 9
+  d3d9_filters           Direct3D9 deinterlace filter
+  d3d11_filters          Direct3D11 adjust filter
+  d3d11_filters          Direct3D11 adjust filter
+  d3d11_filters          Direct3D11 adjust filter
+  d3d11_filters          Direct3D11 deinterlace filter
+  win_msg                Interface de messages Windows
+  win32                  Interface de combinaisons de touches
+  oldrc                  Interface de commande à distance
+  ntservice              Interface de service Windows
+  netsync                Synchronisation réseau
+  hotkeys                Interface de combinaisons de touches
+  gestures               Interface de contrôle par mouvements de souris
+  dummy                  Interface factice
+  zvbi                   Décodeur VBI et télétexte
+  x265                   Encodeur H.265/HEVC (x265)
+  x264                   Encodeur H.264/MPEG-4 Part 10/AVC (x264)
+  x26410b                Encodeur H.264/MPEG-4 Part 10/AVC (x264 10-bit)
+  webvtt                 Décodeur de sous-titres WEBVTT
+  webvtt                 Lecteur de sous-titres WEBVTT
+  webvtt                 Lecteur de sous-titres WEBVTT
+  vpx                    Décodeur vidéo WebM
+  vpx                    Encodeur vidéo WebM
+  vorbis                 Décodeur audio Vorbis
+  vorbis                 Encodeur audio Vorbis
+  vorbis                 Empaqueteur audio Vorbis
+  uleaddvaudio           Décodeur audio Ulead DV
+  twolame                Encodeur audio libtwolame
+  ttml                   Décodeur de sous-titres TTML
+  ttml                   Démultiplexeur TTML
+  theora                 Décodeur vidéo Theora
+  theora                 Encodeur vidéo Theora
+  theora                 Empaqueteur vidéo Theora
+  textst                 Décodeur de sous-titres HDMV TextST
+  t140                   Encodeur de texte T.140
+  svcdsub                Décodeur de sous-titres Philips OGT (sous-titres SVCD)
+  svcdsub                Empaqueteur de sous-titres Philips OGT (sous-titres SVCD)
+  subsusf                Décodeur de sous-titres USF
+  substx3g               Décodeur de sous-titres tx3g
+  subsdec                Décodeur de sous-titres texte
+  stl                    Décodeur de sous-titres EBU STL
+  spudec                 Décodeur de sous-titres DVD
+  spudec                 Empaqueteur de sous-titres DVD
+  speex                  Décodeur audio Speex
+  speex                  Encodeur audio Speex
+  speex                  Empaqueteur audio Speex
+  spdif                  Décodeur S/PDIF pass-through
+  sdl_image              Décodeur vidéo SDL_image
+  scte27                 Décodeur SCTE-27
+  scte18                 Décodeur SCTE-18
+  schroedinger           Décodeur vidéo Dirac (utilisant libschroedinger)
+  schroedinger           Encodeur vidéo Dirac utilisant la bibliothèque libschroedinger
+  rtpvideo               Encodeur vidéo brut pour RTP
+  rawvideo               Pseudo-décodeur vidéo brute
+  rawvideo               Pseudo-empaqueteur vidéo brute
+  qsv                    Encodeur vidéo Intel QuickSync pour MPEG4-Part10/MPEG2 (càd H.264/H.262)
+  png                    Décodeur vidéo PNG
+  png                    Encodeur vidéo PNG
+  opus                   Décodeur audio Opus
+  opus                   Encodeur audio Opus
+  oggspots               Décodeur vidéo OggSpots
+  oggspots               Empaqueteur vidéo OggSpots
+  mpg123                 Décodeur audio MPEG (utilisant mpg123)
+  mft                    Décodeur Media Foundation Transform
+  mft                    Décodeur Media Foundation Transform
+  lpcm                   Décodeur audio PCM linéaire
+  lpcm                   Encodeur audio PCM linéaire
+  lpcm                   Empaqueteur audio PCM linéaire
+  libmpeg2               Décodeur vidéo MPEG I/II (utilisant libmpeg2)
+  libass                 Rendu des sous-titres avec libass
+  kate                   Décodeur de sous-titres Kate
+  jpeg                   Décodeur d’images JPEG
+  jpeg                   Encodeur d'images JPEG
+  g711                   Décodeur G.711
+  g711                   Encodeur G.711
+  fluidsynth             Synthétiseur MIDI FluidSynth
+  flac                   Décodeur audio Flac
+  flac                   Encodeur audio Flac
+  faad                   Décodeur audio AAC (utilisant libfaad2)
+  edummy                 Encodeur factice
+  dxva2                  Accélération vidéo DirectX (DXVA) 2.0
+  dvbsub                 Décodeur de sous-titres DVB
+  dvbsub                 Encodeur de sous-titres DVB
+  dmo                    Décodeur DirectX Media Object
+  dmo                    Encodeur DirectMedia Object
+  dmo                    Décodeur DirectX Media Object
+  ddummy                 Décodeur factice
+  ddummy                 Décodeur factice
+  ddummy                 Décodeur factice
+  ddummy                 Pseudo-décodeur
+  ddummy                 Décodeur factice
+  ddummy                 Décodeur factice
+  dca                    Décodeur audio DTS Coherent Acoustics
+  dav1d                  Dav1d video decoder
+  d3d11va                Accélération vidéo Direct3D 11
+  cvdsub                 Décodeur de sous-titres CVD
+  cvdsub                 Empaqueteur de sous-titres Chaoji VCD
+  crystalhd              Décodeur vidéo matériel Crystal HD
+  cdg                    Décodeur vidéo CDG
+  cc                     Décodeur de sous-titrage pour malentendants
+  avcodec                Décodeur audio/vidéo FFmpeg
+  avcodec                Empaqueteur avparser
+  avcodec                Accès à la sortie AVIO libavformat
+  avcodec                Accès à AVIO libavformat
+  avcodec                Multiplexeur Avformat
+  avcodec                Démultiplexeur Avformat
+  avcodec                Encodeur audio/vidéo ffmpeg
+  avcodec                Décodeur audio/vidéo FFmpeg
+  avcodec                Décodeur audio/vidéo FFmpeg
+  aribsub                Décodeur de sous-titres ARIB
+  araw                   Décodeur de flux audio bruts
+  araw                   Encodeur de flux audio bruts
+  aom                    Décodeur vidéo AOM
+  aes3                   Décodeur audio AES3/SMPTE 302M
+  aes3                   Empaqueteur audio AES3/SMPTE 302M
+  adpcm                  Décodeur audio ADPCM
+  a52                    Décodeur audio ATSC A/52 (AC-3)
+  waveout                Sortie audio WaveOut
+  wasapi                 Sortie de l'API Windows Audio Session
+  mmdevice               Sortie périphérique Windows Multimédia
+  directsound            Sortie audio DirectX
+  directsound            Sortie audio DirectX
+  amem                   Module mémoire audio
+  afile                  Sortie audio vers un fichier
+  adummy                 Sortie audio factice
+  integer_mixer          Volume audio en entier
+  float_mixer            Volume audio en simple précision
+  ugly                   Rééchantillonnage audio au plus proche voisin
+  ugly                   Rééchantillonnage audio au plus proche voisin
+  trivial                Mixeur de canaux trivial
+  tospdif                Filtre audio pour l'encapsulation A/52/DTS->S/PDIF
+  stereo_widen           Effet d'élargissement stéréo simple
+  speex_resampler        Rééchantillonnage Speex
+  speex_resampler        Rééchantillonnage Speex
+  spatializer            Spatialiseur audio
+  spatialaudio           Rendu Ambisonics et binauralizer
+  spatialaudio           Rendu Ambisonics et binauralizer
+  simple_channel_mixer   Mixeur de canaux simple
+  scaletempo             Mettre en corrélation le tempo audio avec la vitesse de lecture
+  scaletempo_pitch       Changement de ton
+  samplerate             Rééchantillonnage SRC (Secret Rabbit Code - libsamplerate)
+  samplerate             Rééchantillonnage SRC (Secret Rabbit Code - libsamplerate)
+  remap                  Canaux audio
+  param_eq               Égaliseur paramétrique
+  normvol                Normaliseur de volume
+  mono                   Mixage réducteur stéréo vers mono
+  mad                    Décodeur MPEG audio, couches I/II/III
+  karaoke                Filtre karaoké
+  headphone              Effet de spatialisation virtuelle pour casque stéréo
+  gain                   Filtre d'ajustement du grain
+  equalizer              Égaliseur 10 bandes
+  dolby                  Décodeur Dolby Surround
+  compressor             Compression dynamique
+  chorus_flanger         Délai audio
+  audio_format           Filtre audio de conversion de formats PCM
+  audiobargraph_a        Partie audio de la fonction histogramme
+  udp                    Sortie flux UDP
+  access_output_srt      Sortie flux SRT
+  access_output_shout    Sortie IceCAST
+  access_output_livehttp Sortie flux HTTP Live
+  http                   Sortie flux HTTP
+  file                   Sortie vers un fichier
+  dummy                  Flux de sortie factice
+  vnc                    Accès client VNC
+  vdr                    Enregistrement VDR
+  vcd                    Entrée VCD
+  udp                    Entrée UDP
+  timecode               Générateur du flux d'incrustation pour le timecode
+  tcp                    Entrée TCP
+  smb                    Entrée SMB
+  shm                    Framebuffer en mémoire partagée
+  sftp                   Entrée SFTP
+  sdp                    Protocole de description de session
+  screen                 Entrée écran
+  satip                  Module de réception SAT>IP
+  rtp                    Entrée RTP (Real Time Protocol)
+  nfs                    Entrée NFS
+  live555                Démultiplexeur RTP/RTSP/SDP (utilisant Live555)
+  live555                Access/Démultiplexeur RTSP/RTP
+  libbluray              Prise en charge des disques Blu-ray (libbluray)
+  libbluray              BluRay demuxer
+  imem_access            Flux d'entrée depuis la mémoire
+  idummy                 Entrée factice
+  http                   Entrée HTTP
+  access                 Entrée HTTPS
+  ftp                    Entrée FTP
+  ftp                    Téléversements FTP
+  filesystem             Lecture de fichiers
+  filesystem             Lecture de fichiers
+  dvdread                Entrée DVDRead (DVD sans menus)
+  dvdnav                 Entrée DVDnav
+  dvdnav                 Démultiplexeur DVDnav
+  dtv                    Télévision numérique et radio
+  dshow                  Entrée DirectShow
+  dshow                  Entrée DirectShow
+  dcp                    Module « Digital Cinema Package »
+  cdda                   Entrée CD audio
+  cdda                   Entrée CD audio
+  attachment             Entrée d'attachement
+  wasapi                 Entrée Windows Audio Session API
+  access_srt             Entrée SRT
+  access_realrtsp        Real RTSP
+  access_mms             Microsoft Media Server (MMS)
+  imem                   Entrée mémoire
+  imem                   Entrée mémoire
+  concat                 Entrées concaténées
+  core                   Programme principal
