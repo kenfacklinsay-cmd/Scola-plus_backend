@@ -1,9 +1,8 @@
 <?php
-
 return [
     'paths' => ['api/*', 'sanctum/csrf-cookie'],
     'allowed_methods' => ['*'],
-    'allowed_origins' => [env('FRONTEND_URL','https://scola-plus-frontend.vercel.app'), 'http://localhost:5173','https://scola-plus-frontend.vercel.app'],
+    'allowed_origins' => ['https://scola-plus-frontend.vercel.app', 'http://localhost:5173'],
     'allowed_origins_patterns' => [],
     'allowed_headers' => ['*'],
     'exposed_headers' => [],
