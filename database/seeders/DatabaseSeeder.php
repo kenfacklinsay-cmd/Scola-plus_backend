@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\User;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Validator;
@@ -16,17 +17,38 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        if (! $this->command) {
-            throw new \RuntimeException('Le seeder initial du directeur doit être exécuté depuis le terminal.');
-        }
+        // if (! $this->command) {
+        //     throw new \RuntimeException('Le seeder initial du directeur doit être exécuté depuis le terminal.');
+        // }
 
-        $credentials = [
-            'firstname' => trim($this->command->ask('Prénom du directeur')),
-            'lastname' => trim($this->command->ask('Nom du directeur')),
-            'email' => mb_strtolower(trim($this->command->ask('Adresse e-mail du directeur'))),
-            'password' => $this->command->secret('Mot de passe (12 caractères minimum)'),
-            'password_confirmation' => $this->command->secret('Confirme le mot de passe'),
-        ];
+        // $credentials = [
+        //     'firstname' => trim($this->command->ask('Prénom du directeur')),
+        //     'lastname' => trim($this->command->ask('Nom du directeur')),
+        //     'email' => mb_strtolower(trim($this->command->ask('Adresse e-mail du directeur'))),
+        //     'password' => $this->command->secret('Mot de passe (12 caractères minimum)'),
+        //     'password_confirmation' => $this->command->secret('Confirme le mot de passe'),
+        // ];
+                if (env('DIRECTEUR_EMAIL')) {
+            $credentials = [
+                'firstname' => env('DIRECTEUR_FIRSTNAME', 'Linsay'),
+                'lastname' => env('DIRECTEUR_LASTNAME', 'Admin'),
+                'email' => env('DIRECTEUR_EMAIL'),
+                'password' => env('DIRECTEUR_PASSWORD'),
+                'password_confirmation' => env('DIRECTEUR_PASSWORD'),
+            ];
+        } else {
+            if (! $this->command) {
+                throw new \RuntimeException('Le seeder initial du directeur doit être exécuté depuis le terminal.');
+            }
+
+            $credentials = [
+                'firstname' => trim($this->command->ask('Prénom du directeur')),
+                'lastname' => trim($this->command->ask('Nom du directeur')),
+                'email' => mb_strtolower(trim($this->command->ask('Adresse e-mail du directeur'))),
+                'password' => $this->command->secret('Mot de passe (12 caractères minimum)'),
+                'password_confirmation' => $this->command->secret('Confirme le mot de passe'),
+            ];
+        }
 
         $validator = Validator::make($credentials, [
             'firstname' => ['required', 'string', 'max:100'],
@@ -45,7 +67,8 @@ class DatabaseSeeder extends Seeder
             'firstname' => $credentials['firstname'],
             'lastname' => $credentials['lastname'],
             'email' => $credentials['email'],
-            'password' => $credentials['password'],
+            // 'password' => $credentials['password'],
+            'password' => Hash::make($credentials['password']),                
             'role' => 'DIRECTEUR',
             'status' => 'ACTIF',
             'must_change_password' => false,
